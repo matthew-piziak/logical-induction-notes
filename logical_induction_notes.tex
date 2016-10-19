@@ -2,6 +2,49 @@
 
 \begin{document}
 
+\section{Abstract}
+
 This paper has devised a principled way of assigning probabilities to logical statements prior to them being deductively proved or refuted, which satisfies many desirable properties. This is motivated by how proofs of important lemmata in mathematics should update our credences about unproved theorems. By recasting probabilities as prices in an appropriate stock market, this paper shows a weakening of the Dutch Book theorem by relating irrationality with market exploitation.
+
+\section{Desiderata}
+
+\begin{enumerate}
+\item This procedure is computable.
+\item The limiting case of the beliefs (when the reasoner has infinite time to think) should be coherent in the sense of Bayesian epistemology.
+\item In finite time the beliefs are as coherent as possible given the available information.
+\item In the absence of other knowledge, ``similar'' sentences should be assigned ``similar'' probabilities.
+\item If the agent believes an event occurs with probability $p$, then the event should in fact occur about $p$ proportion of the time (a ``converse'' to Lewis' Principal Principle?).
+\item Credences should not take extreme values unless it has basis is correct proof.
+\item If a theory is computably enumerable consistent (i.e. it is possible and computable) then agent should assign a non-zero probability to it.
+\item The universal semimeasure is a ``nice'', non-computable formal model of beliefs, so in the limit, the agent should approximate (``dominate''?) the universal semimeasure.
+\item The agent should in finite time satisfy some notion of Bayesian conditionalisation.
+\item If the agent knows $X$ then he would also know that he knows $X$.
+\item The future beliefs of the agent concerning $X$ should be more accurate than his current beliefs about $X$, as he would have taken some time to think about $X$.
+\item In finite time, the agent cannot be cheated via a Dutch book in polynomial time.
+\item Given a universally quantified statement ($Pi_1$), if the reasoner will eventually cover all instances quantified his belief about the statement should approach 1.
+\item This procedure of assigning beliefs to logical formulae should be efficient.
+\item This procedure should reason about logical formulae relevant to decision theory as efficiently as possible.
+\item When asked about contradictions the agent should give relevant answers rather than refer to logical explosion.
+\item Old evidence should support new theories.
+\end{enumerate}
+
+\section{Impossibility Theorems}
+
+\begin{itemize}
+\item 1, 2 and 13 form a contradiction.
+\item 1, a weakened form of 2, 6 and 13 form a contradiction.
+\end{itemize}
+
+This paper:
+
+\begin{itemize}
+\item procedure satisfies 1 and 12,
+\item proves that if the procedure satisfies 1 and 12 then it also satisfies 2 to 11,
+\item fails to satisfy 14 and 15
+\item unclear about 16 and 17
+\end{itemize}
+
+The procedure devised in this paper captures a portion of what it means to have
+beliefs about logical claims (desiderata 1 to 12).
 
 \end{document}
